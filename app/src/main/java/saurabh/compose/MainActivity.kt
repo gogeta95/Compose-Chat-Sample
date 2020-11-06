@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.material.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.setContent
-import saurabh.compose.components.ChatItem
+import saurabh.compose.components.PreviewChatItem
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,6 +19,6 @@ class MainActivity : AppCompatActivity() {
 @Composable
 fun JetChat() {
     MaterialTheme {
-        ChatItem()
+        PreviewChatItem()
     }
 }
